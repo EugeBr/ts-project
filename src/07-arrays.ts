@@ -14,6 +14,6 @@
     mixed.push({});
     mixed.push([]);
 
-    let numbers = [1,2,2,1,1,121];
+    let numbers = [1, 2, 2, 1, 1, 121];
     numbers.map(item => item * 2);
 })();
