@@ -1,4 +1,4 @@
-(() =>  {
+(() => {
     let productTitle = 'My amazing product';
     // productTitle = null; //da error
     // productTitle = () => {}; //da error
