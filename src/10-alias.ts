@@ -1,4 +1,4 @@
-(() =>{
+(() => {
     // Crear un tipo
     type UserID = string | number; //* type es una palabra reservada en typeScript
     let userId: UserID;
