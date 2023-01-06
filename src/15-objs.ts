@@ -10,14 +10,17 @@
     });
 
     type Sizes = 'S' | 'M' | 'L' | 'XL';
-    const products: any[] = [];
-
-    const addProduct = (data: {
+    type Product = {
         title: string,
         createdAt: Date,
         stock: number,
-        size?: string
-    }) => {
+        size?: Sizes
+    }
+
+    // const products: any[] = []; //* recibe cualquier tipo de dato.
+    const products: Product[] = []; //* recibe solo datos que cumplan con la estructura de Product.
+
+    const addProduct = (data: Product) => {
         products.push(data);
     };
 
